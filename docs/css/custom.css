@@ -1,0 +1,18 @@
+
+
+.md-nav__link {
+    color: #000000;              /* sidebar text color */
+}
+
+.md-header {
+    background-color: #000000;   /* top nav bar */
+    height: 60px;               /* height of top nav bar */
+}
+.md-footer {
+    display: none !important;
+}
+.md-header__button.md-logo img {
+    width: 120px;   /* Set your desired width */
+    height: auto;   /* Maintain aspect ratio */
+    max-height: 48px; /* Optional: limit max height */
+}

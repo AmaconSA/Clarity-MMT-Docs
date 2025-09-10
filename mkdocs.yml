@@ -1,0 +1,26 @@
+site_name: Clarity Docs
+theme:
+  name: material
+  logo: clarity-logo-primary-white (3).svg   # put your logo in docs/images/
+  favicon: clarity-logo-primary-white (3).svg    # optional, for browser tab icon
+  copyright: '' 
+  palette:
+  primary: '#FF22F4'
+  accent: '#2e2e2e'
+extra_css:
+  - css/custom.css
+nav:
+  - Home: index.md
+  - Workflows: workflows.md
+  - Health & Safety: OHS.md
+  - ISO:
+      - ISO 9001: iso/9001.md
+      - ISO 45001: iso/45001.md
+      - ISO 27001: iso/27001.md
+      - testfolder:
+            - Test File 1: testfolder/testfile1.md
+            - Test File 2: testfolder/testfile2.md
+
+extra:
+  social: []
+  copyright: ''
