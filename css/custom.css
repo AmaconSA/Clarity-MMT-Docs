@@ -5,7 +5,7 @@
 }
 
 .md-header {
-    background-color: #000000;   /* top nav bar */
+    background-color: hwb(0 0% 100%);   /* top nav bar */
     height: 60px;               /* height of top nav bar */
 }
 .md-footer {
