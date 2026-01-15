@@ -1,16 +1,64 @@
 site_name: Clarity Docs
 theme:
   name: material
-  logo: clarity-logo-primary-white (3).svg   # put your logo in docs/images/
-  favicon: clarity-logo-primary-white (3).svg    # optional, for browser tab icon
-  copyright: '' 
+  logo: clarity-logo-primary-white (3).svg # put your logo in docs/images/
+  favicon: clarity-logo-primary-white (3).svg # optional, for browser tab icon
+  copyright: ""
   palette:
-  primary: '#FF22F4'
-  accent: '#2e2e2e'
+  primary: "#FF22F4"
+  accent: "#2e2e2e"
 extra_css:
   - css/custom.css
 nav:
   - Home: index.md
+  - Meetings:
+      - Meetings Page: meetings_page.md
+      - Meeting Templates: projects.md
+  - Health Dashboard:
+      - Health Dashboard Page: health_dashboard.md
+
+  - Checklists:
+      - Checklist Page: checklist_page.md
+      - Manage Checklist: checklist_templates.md
+      - Checklist Submission: checklist_submission.md
+
+  - Incidents:
+      - Log a Incident Page: incidents_page.md
+      - Incident Register: incident_templates.md
+
+  - Client Satisfaction:
+      - Client Satisfaction Page: client_satisfaction_page.md
+      - Survery Categories: client_satisfaction_templates.md
+
+  - Supplier Register:
+      - Supplier Register Page: supplier_register_page.md
+      - Supplier Form: supplier_register_templates.md
+
+  - Client Register:
+      - Client Register Page: client_register_page.md
+
+  - Non-Conformance:
+      - Non-Conformance Page: non_conformance_page.md
+
+  - Risks:
+      - Risks Page: risks_page.md
+
+  - Appointments:
+      - Appointments Page: appointments_page.md
+      - Appointment Types: appointment_templates.md
+
+  - legal:
+      - Legal Page: legal_page.md
+
+  - Objectives:
+      - Objectives Page: objectives_page.md
+
+  - Opportunities:
+      - Opportunities Page: opportunities_page.md
+
+  - Internal and External Influences:
+      - Internal and External Influences Page: internal_external_influences_page.md
+
   - Workflows: workflows.md
   - Health & Safety: OHS.md
   - Checkilists: checklists.md
@@ -19,9 +67,9 @@ nav:
       - ISO 45001: iso/45001.md
       - ISO 27001: iso/27001.md
       - testfolder:
-            - Test File 1: testfolder/testfile1.md
-            - Test File 2: testfolder/testfile2.md
+          - Test File 1: testfolder/testfile1.md
+          - Test File 2: testfolder/testfile2.md
 
 extra:
   social: []
-  copyright: ''
+  copyright: ""
