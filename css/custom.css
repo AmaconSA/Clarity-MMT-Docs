@@ -1,11 +1,11 @@
 
 
 .md-nav__link {
-    color: #000000;              /* sidebar text color */
+    color: #2e2e2e;              /* sidebar text color */
 }
 
 .md-header {
-    background-color: hwb(0 0% 100%);   /* top nav bar */
+    background-color: #2e2e2e;   /* top nav bar */
     height: 60px;               /* height of top nav bar */
 }
 .md-footer {
